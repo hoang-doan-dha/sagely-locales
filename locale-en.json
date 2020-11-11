@@ -1732,7 +1732,7 @@
    "Community_Reports_Label_DailyParticipationAudit": "Daily Participation Audit",
    "Community_Reports_Label_Hint_DailyParticipationAudit": "List of check-ins on a given day, with info such as:\n- Resident\nUser who checked in the resident\nCheck-in status (Active, Passive, etc.)",
    "Community_Reports_Label_DateRange": "Date Range",
-   "Community_Reports_Label_To": "to",
+   "Community_Reports_Label_to": "to",
    "Community_Reports_Button_GenerateReport": "Generate Report",
    "Community_Admin_Label_CommunitySettings": "Community Settings",
    "Community_Admin_Label_Enterprise": "Enterprise",
@@ -1814,7 +1814,7 @@
    "Community_Admin_Label_Hidden": "Hidden",
    "Community_Admin_Label_Residents": "Residents",
    "Community_Admin_Label_General": "General",
-   "Community_Admin_Label_Has Relationships": "Has Relationships",
+   "Community_Admin_Label_HasRelationships": "Has Relationships",
    "Community_Admin_Label_Status": "Status",
    "Community_Admin_Label_Active": "Active",
    "Community_Admin_Label_Inactive": "Inactive",
@@ -2605,5 +2605,12 @@
    "Community_Admin_Purposeful_Hint": "Activities that celebrate residents' previous professional/volunteer skills to contribute to their community and/or mentor others.",
    "Community_Admin_Social_Hint": "Activities that encourage personal connections with others through conversation and interactive activities; includes intergenerational connectedness.",
    "Community_Admin_Spiritual_Hint": "Activities that promote meaning and purpose in life, guided by personal values. These include faith-based activities, meditation, mindful exercise & experiencing nature.",
-   "Community_Admin_Environmental_Hint": "Activities that promote respect for and enjoyment of natural resources; opportunity to bring nature into our everyday lives."
+   "Community_Admin_Environmental_Hint": "Activities that promote respect for and enjoyment of natural resources; opportunity to bring nature into our everyday lives.",
+   "Community_Admin_Label_AddAPIKey": "Add API Key",
+   "Community_Admin_APIKeys_Message_ErrorLoading": "Error loading API keys",
+   "Community_Admin_APIKeys_Message_ErrorSaving": "Error saving API key",
+   "Community_Admin_APIKeys_Message_APIKeyCreated": "API key created",
+   "Community_Admin_APIKeys_Message_ErrorCreating": "Error creating API key",
+   "Community_Admin_APIKeys_Message_APIKeyDeleted": "API key deleted",
+   "Community_Admin_APIKeys_Message_ErrorDeleting": "Error deleting API key"
  }
