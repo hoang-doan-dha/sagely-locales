@@ -2590,5 +2590,10 @@
    "Community_Admin_UserManagement_Message_UserCreated": "User created",
    "Community_Admin_UserManagement_Message_UserRemoved": "User removed",
    "Community_Admin_UserManagement_Message_ErrorRemovingUser": "Error removing user",
-   "Community_Admin_Label_AddUser": "Add User"
-} 
+   "Community_Admin_Label_AddUser": "Add User",
+   "Community_Admin_Message_ErrorSaving": "Error saving",
+   "Community_Admin_Message_created": "created",
+   "Community_Admin_Message_ErrorCreating": "Error creating",
+   "Community_Admin_Message_deleted": "deleted",
+   "Community_Admin_Message_ErrorDeleting": "Error deleting"
+ }
