@@ -1898,7 +1898,7 @@
    "Community_Admin_DeleteUserPopUp_Text": "Are you sure you want to remove this user?",
    "Community_Admin_DeleteUserPopUp_Button_Delete": "Delete",
    "Community_Admin_DeleteUserPopUp_Button_Cancel": "Cancel",
-   "Community_Admin_Label_ViewEditCheck-InStatus": "View/Edit Check-In Status",
+   "Community_Admin_Label_ViewEdit": "View/Edit",
    "Community_Admin_Label_Name": "Name",
    "Community_Admin_Label_Abbreviation": "Abbreviation",
    "Community_Admin_Label_Default": "Default",
@@ -1907,7 +1907,7 @@
    "Community_Admin_SelectionBox_asDefault": "as default",
    "Community_Admin_SelectionBox_Currently": "Currently",
    "Community_Admin_SelectionBox_SetPassiveAsDefault": "Set Passive as default (Currently: Attended)",
-   "Community_Admin_SelectionBox_SetSickAsDefault": "Set Sick as default (Currently: Attended)",
+   "Community_Admin_Label_Add": "Add",
    "Community_Admin_Label_Participation": "Participation",
    "Community_Admin_Text_SetACheckInStatus": "Set a Check-In status as a participation to include it in participant counts on summary reports",
    "Community_Admin_SelectionBox_asAParticipation": "as a participation",
@@ -2591,4 +2591,4 @@
    "Community_Admin_UserManagement_Message_UserRemoved": "User removed",
    "Community_Admin_UserManagement_Message_ErrorRemovingUser": "Error removing user",
    "Community_Admin_Label_AddUser": "Add User"
- }
+} 
