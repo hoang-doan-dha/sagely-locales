@@ -2590,4 +2590,10 @@
    "Community_Admin_UserManagement_Message_UserCreated": "JP_User created",
    "Community_Admin_UserManagement_Message_UserRemoved": "JP_User removed",
    "Community_Admin_UserManagement_Message_ErrorRemovingUser": "JP_Error removing user",
-   "Community_Admin_Label_AddUser": "JP_Add User"} 
+   "Community_Admin_Label_AddUser": "JP_Add User",
+   "Community_Admin_Message_ErrorSaving": "JP_Error saving",
+   "Community_Admin_Message_created": "JP_created",
+   "Community_Admin_Message_ErrorCreating": "JP_Error creating",
+   "Community_Admin_Message_deleted": "JP_deleted",
+   "Community_Admin_Message_ErrorDeleting": "JP_Error deleting"
+ }
