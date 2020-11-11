@@ -1898,7 +1898,7 @@
    "Community_Admin_DeleteUserPopUp_Text": "JP_Are you sure you want to remove this user?",
    "Community_Admin_DeleteUserPopUp_Button_Delete": "JP_Delete",
    "Community_Admin_DeleteUserPopUp_Button_Cancel": "JP_Cancel",
-   "Community_Admin_Label_ViewEditCheck-InStatus": "JP_View/Edit Check-In Status",
+   "Community_Admin_Label_ViewEdit": "JP_View/Edit",
    "Community_Admin_Label_Name": "JP_Name",
    "Community_Admin_Label_Abbreviation": "JP_Abbreviation",
    "Community_Admin_Label_Default": "JP_Default",
@@ -1907,7 +1907,7 @@
    "Community_Admin_SelectionBox_asDefault": "JP_as default",
    "Community_Admin_SelectionBox_Currently": "JP_Currently",
    "Community_Admin_SelectionBox_SetPassiveAsDefault": "JP_Set Passive as default (Currently: Attended)",
-   "Community_Admin_SelectionBox_SetSickAsDefault": "JP_Set Sick as default (Currently: Attended)",
+   "Community_Admin_Label_Add": "JP_Add",
    "Community_Admin_Label_Participation": "JP_Participation",
    "Community_Admin_Text_SetACheckInStatus": "JP_Set a Check-In status as a participation to include it in participant counts on summary reports",
    "Community_Admin_SelectionBox_asAParticipation": "JP_ as a participation",
@@ -2590,5 +2590,4 @@
    "Community_Admin_UserManagement_Message_UserCreated": "JP_User created",
    "Community_Admin_UserManagement_Message_UserRemoved": "JP_User removed",
    "Community_Admin_UserManagement_Message_ErrorRemovingUser": "JP_Error removing user",
-   "Community_Admin_Label_AddUser": "JP_Add User"
- }
+   "Community_Admin_Label_AddUser": "JP_Add User"} 
