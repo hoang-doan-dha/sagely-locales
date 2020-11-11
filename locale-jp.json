@@ -1732,7 +1732,7 @@
    "Community_Reports_Label_DailyParticipationAudit": "JP_Daily Participation Audit",
    "Community_Reports_Label_Hint_DailyParticipationAudit": "JP_List of check-ins on a given day, with info such as:\n- Resident\nUser who checked in the resident\nCheck-in status (Active, Passive, etc.)",
    "Community_Reports_Label_DateRange": "JP_Date Range",
-   "Community_Reports_Label_To": "JP_to",
+   "Community_Reports_Label_to": "JP_to",
    "Community_Reports_Button_GenerateReport": "JP_Generate Report",
    "Community_Admin_Label_CommunitySettings": "JP_Community Settings",
    "Community_Admin_Label_Enterprise": "JP_Enterprise",
@@ -1814,7 +1814,7 @@
    "Community_Admin_Label_Hidden": "JP_Hidden",
    "Community_Admin_Label_Residents": "JP_Residents",
    "Community_Admin_Label_General": "JP_General",
-   "Community_Admin_Label_Has Relationships": "JP_Has Relationships",
+   "Community_Admin_Label_HasRelationships": "JP_Has Relationships",
    "Community_Admin_Label_Status": "JP_Status",
    "Community_Admin_Label_Active": "JP_Active",
    "Community_Admin_Label_Inactive": "JP_Inactive",
@@ -2605,5 +2605,12 @@
    "Community_Admin_Purposeful_Hint": "JP_Activities that celebrate residents' previous professional/volunteer skills to contribute to their community and/or mentor others.",
    "Community_Admin_Social_Hint": "JP_Activities that encourage personal connections with others through conversation and interactive activities; includes intergenerational connectedness.",
    "Community_Admin_Spiritual_Hint": "JP_Activities that promote meaning and purpose in life, guided by personal values. These include faith-based activities, meditation, mindful exercise & experiencing nature.",
-   "Community_Admin_Environmental_Hint": "JP_Activities that promote respect for and enjoyment of natural resources; opportunity to bring nature into our everyday lives."
+   "Community_Admin_Environmental_Hint": "JP_Activities that promote respect for and enjoyment of natural resources; opportunity to bring nature into our everyday lives.",
+   "Community_Admin_Label_AddAPIKey": "JP_Add API Key",
+   "Community_Admin_APIKeys_Message_ErrorLoading": "JP_Error loading API keys",
+   "Community_Admin_APIKeys_Message_ErrorSaving": "JP_Error saving API key",
+   "Community_Admin_APIKeys_Message_APIKeyCreated": "JP_API key created",
+   "Community_Admin_APIKeys_Message_ErrorCreating": "JP_Error creating API key",
+   "Community_Admin_APIKeys_Message_APIKeyDeleted": "JP_API key deleted",
+   "Community_Admin_APIKeys_Message_ErrorDeleting": "JP_Error deleting API key"
  }
