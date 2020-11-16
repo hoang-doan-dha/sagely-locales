@@ -1233,13 +1233,13 @@
    "Community_Residents_WellBeing_Label_NoDataAvailable": "No data available in table",
    "Community_Residents_ActivitiesLog": "Activities Log",
    "Community_Residents_ActivitiesLog_Label_StartDate": "Start Date",
-   "Community_Residents_ActivitiesLog_Label_StartDate": "End Date",
+   "Community_Residents_ActivitiesLog_Label_EndDate": "End Date",
    "Community_Residents_ActivitiesLog_Button_Search": "Search",
    "Community_Residents_ActivitiesLog_Text_NoActivitiesFound": "No activities found",
    "Community_Residents_ActivitiesLog_Table_Label_Date": "Date",
    "Community_Residents_ActivitiesLog_Table_Label_Name": "Name",
-   "Community_Residents_ActivitiesLog_Table_Label_Dimension": "Dimension",
-   "Community_Residents_RecordWellBeingPopUp_Title": "Record Well-Being",
+   "Community_Residents_ActivitiesLog_Table_Label_Dimensions": "Dimensions",
+   "Community_Residents_RecordWellBeingPopUp_RecordWellBeing": "Record Well-Being",
    "Community_Residents_RecordWellBeingPopUp_Label_AssessmentType": "Assessment Type",
    "Community_Residents_RecordWellBeingPopUp_DropDownBox_SelectAssessmentType": "Select assessment type",
    "Community_Residents_RecordWellBeingPopUp_DropDownBox_General": "General",
@@ -2777,5 +2777,10 @@
    "Community_Residents_PhotoAlbum_Button_Download": "Download",
    "Community_Residents_PhotoAlbum_Text_UploadDate": "Upload date",
    "Community_Residents_Label_UpdatePhoto": "Update Photo",
-   "Community_Residents_Label_AddPhoto": "Add Photo"
+   "Community_Residents_Label_AddPhoto": "Add Photo",
+   "Community_Residents_Message_ErrorLoadingActivities": "Error loading activities",
+   "Community_Residents_PhotoAlbum_Label_ViewEditPhoto": "View/Edit Photo",
+   "Community_Residents_PhotoAlbum_Label_DragAndDropImagesHere": "Drag and drop images here",
+   "Community_Residents_RecordWellBeingPopUp_Label_EditWellBeing": "Edit Well-Being",
+   "Community_Residents_RecordWellBeingPopUp_Label_AssessmentName": "Assessment Name"
  }
