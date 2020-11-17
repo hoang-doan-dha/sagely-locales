@@ -1173,7 +1173,7 @@
    "Community_Residents_PhotoAlbum_Button_AddNewPhotos": "Add New Photos",
    "Community_Residents_PhotoAlbum_Label_StartDate": "Start Date",
    "Community_Residents_PhotoAlbum_Label_EndDate": "End Date",
-   "Community_Residents_PhotoAlbum_Text_NoPhotosFound": "No photos found",
+   "Community_Residents_PhotoAlbum_Text_NoPhotosFound": "No photos found.",
    "Community_Residents_WellBeing": "Well-Being",
    "Community_Residents_WellBeing_Label_StartDate": "Start Date",
    "Community_Residents_WellBeing_Label_EndDate": "End Date",
@@ -2804,5 +2804,9 @@
    "Community_Attendance_RecordSingFitPopUp_Label_MoodAfter": "Mood After",
    "Community_Attendance_Label_AssessmentSaved": "Assessment saved",
    "Community_Attendance_Label_Calendars": "Calendars",
-   "": ""
+   "Community_Residents_PhotoGallery_Text_DeleteThisPhoto": "Are you sure you want to delete this photo?",
+   "Community_Residents_PhotoGallery_Label_ResidentSearch": "Resident Search",
+   "Community_Residents_PhotoGallery_Message_ErrorLoadingPhotos": "Error loading photos",
+   "Community_Residents_PhotoGallery_Message_ErrorDeletingPhoto": "Error deleting photo",
+   "Community_Residents_PhotoGallery_Message_PhotoDeleted": "Photo deleted"
  }
