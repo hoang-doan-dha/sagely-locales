@@ -1173,7 +1173,7 @@
    "Community_Residents_PhotoAlbum_Button_AddNewPhotos": "JP_Add New Photos",
    "Community_Residents_PhotoAlbum_Label_StartDate": "JP_Start Date",
    "Community_Residents_PhotoAlbum_Label_EndDate": "JP_End Date",
-   "Community_Residents_PhotoAlbum_Text_NoPhotosFound": "JP_No photos found",
+   "Community_Residents_PhotoAlbum_Text_NoPhotosFound": "JP_No photos found.",
    "Community_Residents_WellBeing": "JP_Well-Being",
    "Community_Residents_WellBeing_Label_StartDate": "JP_Start Date",
    "Community_Residents_WellBeing_Label_EndDate": "JP_End Date",
@@ -2804,5 +2804,9 @@
    "Community_Attendance_RecordSingFitPopUp_Label_MoodAfter": "JP_Mood After",
    "Community_Attendance_Label_AssessmentSaved": "JP_Assessment saved",
    "Community_Attendance_Label_Calendars": "JP_Calendars",
-   "": ""
+   "Community_Residents_PhotoGallery_Text_DeleteThisPhoto": "JP_Are you sure you want to delete this photo?",
+   "Community_Residents_PhotoGallery_Label_ResidentSearch": "JP_Resident Search",
+   "Community_Residents_PhotoGallery_Message_ErrorLoadingPhotos": "JP_Error loading photos",
+   "Community_Residents_PhotoGallery_Message_ErrorDeletingPhoto": "JP_Error deleting photo",
+   "Community_Residents_PhotoGallery_Message_PhotoDeleted": "JP_Photo deleted"
  }
