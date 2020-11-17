@@ -1190,7 +1190,7 @@
    "Community_Residents_WellBeing_Label_Event": "JP_Event",
    "Community_Residents_WellBeing_Label_User": "JP_User",
    "Community_Residents_WellBeing_Label_Mood": "JP_Mood",
-   "Community_Residents_WellBeing_Label_Comments": "JP_Comments",
+   "Community_Residents_WellBeing_Label_Comment": "JP_Comment",
    "Community_Residents_WellBeing_Label_NoDataAvailable": "JP_No data available in table",
    "Community_Residents_WellBeing_Button_Close": "JP_Close",
    "Community_Residents_WellBeing_Label_CohenMansfield": "JP_Cohen-Mansfield Agitation Inventory Results",
@@ -2899,5 +2899,10 @@
    "Community_Messages_Label_Form_MessageHasNotBeenSent": "JP_This message has not been sent and contains unsaved changes.",
    "Community_Messages_Label_Form_SaveAsDraftToWorkLater": "JP_You can save it as a draft to work on later by clicking \"No, keep working\" and then click on the \"Save Draft\" button.",
    "Community_Messages_Label_Form_NoKeepWorking": "JP_No, keep working",
-   "Community_Messages_Label_Form_YesCancel": "JP_Yes, cancel"
+   "Community_Messages_Label_Form_YesCancel": "JP_Yes, cancel",
+   "Community_Residents_WellBeing_Label_UpdatedOn": "JP_Updated on",
+   "Community_Residents_WellBeing_Label_UpdatedBy": "JP_Updated by",
+   "Community_Residents_WellBeing_Label_RecordedDate": "JP_Recorded Date",
+   "Community_Residents_WellBeing_Label_RecordedBy": "JP_Recorded By",
+   "Community_Residents_WellBeing_Label_Details": "JP_Details"
  }
