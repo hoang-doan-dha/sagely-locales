@@ -1,268 +1,909 @@
-# sagely-locales
 
-1) should toggle a day choice
-     Calendar Controller Scope functions
-     TypeError: undefined is not an object (evaluating 'scope.weekdays[0]') in /Users/hailuabk/Documents/projects/sagely/test/client/web/controllers/calendar-ctrl-spec.js (line 580)
-/Users/hailuabk/Documents/projects/sagely/test/client/web/controllers/calendar-ctrl-spec.js:580:45
+1) should properly initialize the controller
+     Message View Controller
+     forEach@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:321:24
+loadModules@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4508:12
+createInjector@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4430:30
+workFn@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-mocks/angular-mocks.js:2922:60
+loaded@http://localhost:9876/context.js:162:17
+/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4548:53
+     TypeError: undefined is not a constructor (evaluating 'controller') in /Users/hailuabk/Documents/projects/sagely/test/client/web/controllers/message-view-ctrl-spec.js (line 11)
+getController@/Users/hailuabk/Documents/projects/sagely/test/client/web/controllers/message-view-ctrl-spec.js:11:26
+/Users/hailuabk/Documents/projects/sagely/test/client/web/controllers/message-view-ctrl-spec.js:64:33
+loaded@http://localhost:9876/context.js:162:17
 
-2) should toggle a repeat position
-     Calendar Controller Scope functions
-     TypeError: undefined is not an object (evaluating 'scope.monthlyRepeatPositions[0]') in /Users/hailuabk/Documents/projects/sagely/test/client/web/controllers/calendar-ctrl-spec.js (line 603)
-/Users/hailuabk/Documents/projects/sagely/test/client/web/controllers/calendar-ctrl-spec.js:603:64
+2) should broadcast viewContentLoaded
+     Message View Controller
+     forEach@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:321:24
+loadModules@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4508:12
+createInjector@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4430:30
+workFn@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-mocks/angular-mocks.js:2922:60
+/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4548:53
+     forEach@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:321:24
+loadModules@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4508:12
+createInjector@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4430:30
+workFn@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-mocks/angular-mocks.js:2922:60
+/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4548:53
 
-3) should toggle a repeat interval
-     Calendar Controller Scope functions
-     TypeError: undefined is not an object (evaluating 'scope.repeatIntervals[0]') in /Users/hailuabk/Documents/projects/sagely/test/client/web/controllers/calendar-ctrl-spec.js (line 626)
-/Users/hailuabk/Documents/projects/sagely/test/client/web/controllers/calendar-ctrl-spec.js:626:57
+3) should load a message view which was already in page messages
+     Message View Controller
+     forEach@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:321:24
+loadModules@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4508:12
+createInjector@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4430:30
+workFn@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-mocks/angular-mocks.js:2922:60
+/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4548:53
+     TypeError: undefined is not an object (evaluating 'messageSvcMock._options') in /Users/hailuabk/Documents/projects/sagely/test/client/web/controllers/message-view-ctrl-spec.js (line 92)
+/Users/hailuabk/Documents/projects/sagely/test/client/web/controllers/message-view-ctrl-spec.js:92:23
 
-4) should create a new event with a weekly custom recurrence
-     Calendar Controller Event Update
-     undefined
-/Users/hailuabk/Documents/projects/sagely/test/client/web/controllers/calendar-ctrl-spec.js:1894:23
-invoke@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4625:24
-workFn@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-mocks/angular-mocks.js:2933:26
+4) should not load message #0
+     Message View Controller
+     forEach@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:321:24
+loadModules@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4508:12
+createInjector@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4430:30
+workFn@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-mocks/angular-mocks.js:2922:60
+/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4548:53
+     TypeError: undefined is not a constructor (evaluating 'controller') in /Users/hailuabk/Documents/projects/sagely/test/client/web/controllers/message-view-ctrl-spec.js (line 11)
+getController@/Users/hailuabk/Documents/projects/sagely/test/client/web/controllers/message-view-ctrl-spec.js:11:26
+/Users/hailuabk/Documents/projects/sagely/test/client/web/controllers/message-view-ctrl-spec.js:104:22
 
-5) should create a new event with a monthly on custom recurrence
-     Calendar Controller Event Update
-     undefined
-/Users/hailuabk/Documents/projects/sagely/test/client/web/controllers/calendar-ctrl-spec.js:1967:37
-invoke@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4625:24
-workFn@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-mocks/angular-mocks.js:2933:26
+5) should not load message #ABC
+     Message View Controller
+     forEach@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:321:24
+loadModules@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4508:12
+createInjector@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4430:30
+workFn@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-mocks/angular-mocks.js:2922:60
+/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4548:53
+     TypeError: undefined is not a constructor (evaluating 'controller') in /Users/hailuabk/Documents/projects/sagely/test/client/web/controllers/message-view-ctrl-spec.js (line 11)
+getController@/Users/hailuabk/Documents/projects/sagely/test/client/web/controllers/message-view-ctrl-spec.js:11:26
+/Users/hailuabk/Documents/projects/sagely/test/client/web/controllers/message-view-ctrl-spec.js:114:22
 
-6) should create a new event with a multiple monthly on custom recurrence
-     Calendar Controller Event Update
-     undefined
-/Users/hailuabk/Documents/projects/sagely/test/client/web/controllers/calendar-ctrl-spec.js:2004:37
-invoke@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4625:24
-workFn@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-mocks/angular-mocks.js:2933:26
+6) should not load message not in page messages or in database
+     Message View Controller
+     forEach@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:321:24
+loadModules@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4508:12
+createInjector@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4430:30
+workFn@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-mocks/angular-mocks.js:2922:60
+/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4548:53
+     TypeError: undefined is not an object (evaluating 'messageSvcMock._options') in /Users/hailuabk/Documents/projects/sagely/test/client/web/controllers/message-view-ctrl-spec.js (line 124)
+/Users/hailuabk/Documents/projects/sagely/test/client/web/controllers/message-view-ctrl-spec.js:124:23
 
-7) should process a standard weekly repeat
-     Calendar Controller Process Custom Repeat
-     undefined
-/Users/hailuabk/Documents/projects/sagely/test/client/web/controllers/calendar-ctrl-spec.js:3082:23
-invoke@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4625:24
-workFn@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-mocks/angular-mocks.js:2933:26
+7) should load message not in page messages but in database
+     Message View Controller
+     forEach@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:321:24
+loadModules@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4508:12
+createInjector@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4430:30
+workFn@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-mocks/angular-mocks.js:2922:60
+/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4548:53
+     TypeError: undefined is not an object (evaluating 'messageSvcMock._options') in /Users/hailuabk/Documents/projects/sagely/test/client/web/controllers/message-view-ctrl-spec.js (line 137)
+/Users/hailuabk/Documents/projects/sagely/test/client/web/controllers/message-view-ctrl-spec.js:137:23
 
-8) should process a standard weekly repeat on a different day
-     Calendar Controller Process Custom Repeat
-     undefined
-/Users/hailuabk/Documents/projects/sagely/test/client/web/controllers/calendar-ctrl-spec.js:3095:23
-invoke@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4625:24
-workFn@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-mocks/angular-mocks.js:2933:26
+8) should set sendDelayMinutes to 0 if undefined
+     Message View Controller
+     forEach@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:321:24
+loadModules@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4508:12
+createInjector@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4430:30
+workFn@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-mocks/angular-mocks.js:2922:60
+/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4548:53
+     TypeError: Unable to delete property. in /Users/hailuabk/Documents/projects/sagely/test/client/web/controllers/message-view-ctrl-spec.js (line 151)
+/Users/hailuabk/Documents/projects/sagely/test/client/web/controllers/message-view-ctrl-spec.js:151:41
 
-9) should process a standard weekly repeat on a different day in the next week
-     Calendar Controller Process Custom Repeat
-     undefined
-/Users/hailuabk/Documents/projects/sagely/test/client/web/controllers/calendar-ctrl-spec.js:3108:23
-invoke@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4625:24
-workFn@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-mocks/angular-mocks.js:2933:26
+9) should format author
+     Message View Controller
+     forEach@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:321:24
+loadModules@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4508:12
+createInjector@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4430:30
+workFn@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-mocks/angular-mocks.js:2922:60
+/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4548:53
+     TypeError: undefined is not a constructor (evaluating 'controller') in /Users/hailuabk/Documents/projects/sagely/test/client/web/controllers/message-view-ctrl-spec.js (line 11)
+getController@/Users/hailuabk/Documents/projects/sagely/test/client/web/controllers/message-view-ctrl-spec.js:11:26
+/Users/hailuabk/Documents/projects/sagely/test/client/web/controllers/message-view-ctrl-spec.js:164:22
 
-10) should process a standard weekly repeat on friday
-     Calendar Controller Process Custom Repeat
-     undefined
-/Users/hailuabk/Documents/projects/sagely/test/client/web/controllers/calendar-ctrl-spec.js:3121:23
-invoke@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4625:24
-workFn@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-mocks/angular-mocks.js:2933:26
+10) should queue for sending
+     Message View Controller
+     forEach@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:321:24
+loadModules@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4508:12
+createInjector@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4430:30
+workFn@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-mocks/angular-mocks.js:2922:60
+/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4548:53
+     TypeError: undefined is not an object (evaluating 'messageSvcMock._options') in /Users/hailuabk/Documents/projects/sagely/test/client/web/controllers/message-view-ctrl-spec.js (line 175)
+/Users/hailuabk/Documents/projects/sagely/test/client/web/controllers/message-view-ctrl-spec.js:175:23
 
-11) should process a standard weekly repeat on saturday
-     Calendar Controller Process Custom Repeat
-     undefined
-/Users/hailuabk/Documents/projects/sagely/test/client/web/controllers/calendar-ctrl-spec.js:3134:23
-invoke@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4625:24
-workFn@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-mocks/angular-mocks.js:2933:26
+11) should fail to queue for sending
+     Message View Controller
+     forEach@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:321:24
+loadModules@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4508:12
+createInjector@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4430:30
+workFn@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-mocks/angular-mocks.js:2922:60
+/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4548:53
+     TypeError: undefined is not an object (evaluating 'messageSvcMock._options') in /Users/hailuabk/Documents/projects/sagely/test/client/web/controllers/message-view-ctrl-spec.js (line 192)
+/Users/hailuabk/Documents/projects/sagely/test/client/web/controllers/message-view-ctrl-spec.js:192:23
 
-12) should process a repeat with an invalid interval
-     Calendar Controller Process Custom Repeat
-     undefined
-/Users/hailuabk/Documents/projects/sagely/test/client/web/controllers/calendar-ctrl-spec.js:3174:23
-invoke@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4625:24
-workFn@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-mocks/angular-mocks.js:2933:26
+12) should format send button label to Send now for 0 delay
+     Message View Controller
+     forEach@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:321:24
+loadModules@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4508:12
+createInjector@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4430:30
+workFn@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-mocks/angular-mocks.js:2922:60
+/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4548:53
+     TypeError: undefined is not an object (evaluating 'messageSvcMock._options') in /Users/hailuabk/Documents/projects/sagely/test/client/web/controllers/message-view-ctrl-spec.js (line 210)
+/Users/hailuabk/Documents/projects/sagely/test/client/web/controllers/message-view-ctrl-spec.js:210:23
 
-13) should process a multiple monthly repeat
-     Calendar Controller Process Custom Repeat
-     undefined
-/Users/hailuabk/Documents/projects/sagely/test/client/web/controllers/calendar-ctrl-spec.js:3195:37
-invoke@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4625:24
-workFn@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-mocks/angular-mocks.js:2933:26
+13) should format send button label for 5 minute delay
+     Message View Controller
+     forEach@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:321:24
+loadModules@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4508:12
+createInjector@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4430:30
+workFn@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-mocks/angular-mocks.js:2922:60
+/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4548:53
+     TypeError: Attempted to assign to readonly property. in /Users/hailuabk/Documents/projects/sagely/test/client/web/controllers/message-view-ctrl-spec.js (line 223)
+/Users/hailuabk/Documents/projects/sagely/test/client/web/controllers/message-view-ctrl-spec.js:223:17
 
-14) should process a multiple monthly repeat including last
-     Calendar Controller Process Custom Repeat
-     undefined
-/Users/hailuabk/Documents/projects/sagely/test/client/web/controllers/calendar-ctrl-spec.js:3214:37
-invoke@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4625:24
-workFn@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-mocks/angular-mocks.js:2933:26
+14) should format send button label for 5 minute delay
+     Message View Controller
+     forEach@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:321:24
+loadModules@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4508:12
+createInjector@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4430:30
+workFn@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-mocks/angular-mocks.js:2922:60
+/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4548:53
+     TypeError: Attempted to assign to readonly property. in /Users/hailuabk/Documents/projects/sagely/test/client/web/controllers/message-view-ctrl-spec.js (line 237)
+/Users/hailuabk/Documents/projects/sagely/test/client/web/controllers/message-view-ctrl-spec.js:237:17
 
-15) should pop up the new calendar modal
-     Calendar Controller Calendar Maintenance
-     undefined
-htmlEscapeValue@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-translate/angular-translate.js:329:17
-escape@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-translate/angular-translate.js:133:32
-/Users/hailuabk/Documents/projects/sagely/bower_components/angular-translate/angular-translate.js:240:47
-forEach@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:321:24
-applyStrategies@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-translate/angular-translate.js:236:22
-sanitize@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-translate/angular-translate.js:322:31
-interpolate@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-translate/angular-translate.js:2903:57
-determineTranslationInstant@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-translate/angular-translate.js:2054:44
-instant@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-translate/angular-translate.js:2604:49
-/Users/hailuabk/Documents/projects/sagely/client/web/js/services/unsavedChangesSvc.js:9:812
-[native code]
-processQueue@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:15757:30
-/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:15773:39
-$eval@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:17025:28
-$digest@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:16841:36
-/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:17064:33
-flush@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-mocks/angular-mocks.js:126:34
-flush@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-mocks/angular-mocks.js:2039:25
-/Users/hailuabk/Documents/projects/sagely/test/client/web/controllers/calendar-ctrl-spec.js:3473:23
-invoke@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4625:24
-workFn@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-mocks/angular-mocks.js:2933:26
+15) should format send button label for 15 minute delay
+     Message View Controller
+     forEach@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:321:24
+loadModules@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4508:12
+createInjector@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4430:30
+workFn@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-mocks/angular-mocks.js:2922:60
+/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4548:53
+     TypeError: Attempted to assign to readonly property. in /Users/hailuabk/Documents/projects/sagely/test/client/web/controllers/message-view-ctrl-spec.js (line 251)
+/Users/hailuabk/Documents/projects/sagely/test/client/web/controllers/message-view-ctrl-spec.js:251:17
 
-16) should show the print calendar dialog
-     Calendar Controller Printable Calendar
-     Expected $.month = '11月 2014' to equal 'November 2014'.
-/Users/hailuabk/Documents/projects/sagely/test/client/web/controllers/calendar-ctrl-spec.js:4119:48
-invoke@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4625:24
-workFn@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-mocks/angular-mocks.js:2933:26
-     Expected [ Object({ id: '1', text: '12月 29 - 1月 4' }), Object({ id: '2', text: '1月 5 - 1月 11' }), Object({ id: '3', text: '1月 12 - 1月 18' }), Object({ id: '4', text: '1月 19 - 1月 25' }), Object({ id: '5', text: '1月 26 - 2月 1' }), Object({ id: '6', text: '2月 2 - 2月 8' }), Object({ id: '7', text: '2月 9 - 2月 15' }), Object({ id: '8', text: '2月 16 - 2月 22' }), Object({ id: '9', text: '2月 23 - 3月 1' }), Object({ id: '10', text: '3月 2 - 3月 8' }), Object({ id: '11', text: '3月 9 - 3月 15' }), Object({ id: '12', text: '3月 16 - 3月 22' }), Object({ id: '13', text: '3月 23 - 3月 29' }), Object({ id: '14', text: '3月 30 - 4月 5' }), Object({ id: '15', text: '4月 6 - 4月 12' }), Object({ id: '16', text: '4月 13 - 4月 19' }), Object({ id: '17', text: '4月 20 - 4月 26' }), Object({ id: '18', text: '4月 27 - 5月 3' }), Object({ id: '19', text: '5月 4 - 5月 10' }), Object({ id: '20', text: '5月 11 - 5月 17' }), Object({ id: '21', text: '5月 18 - 5月 24' }), Object({ id: '22', text: '5月 25 - 5月 31' }), Object({ id: '23', text: ' ... to contain Object({ id: '1', text: 'Dec 29 - Jan 4' }).
-/Users/hailuabk/Documents/projects/sagely/test/client/web/controllers/calendar-ctrl-spec.js:4121:44
-invoke@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4625:24
-workFn@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-mocks/angular-mocks.js:2933:26
+16) should format send button label for 30 minute delay
+     Message View Controller
+     forEach@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:321:24
+loadModules@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4508:12
+createInjector@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4430:30
+workFn@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-mocks/angular-mocks.js:2922:60
+/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4548:53
+     TypeError: Attempted to assign to readonly property. in /Users/hailuabk/Documents/projects/sagely/test/client/web/controllers/message-view-ctrl-spec.js (line 265)
+/Users/hailuabk/Documents/projects/sagely/test/client/web/controllers/message-view-ctrl-spec.js:265:17
 
-17) should show the print calendar dialog with an valid last template with notes
-     Calendar Controller Printable Calendar
-     Expected $.month = '11月 2014' to equal 'November 2014'.
-/Users/hailuabk/Documents/projects/sagely/test/client/web/controllers/calendar-ctrl-spec.js:4131:48
-invoke@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4625:24
-workFn@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-mocks/angular-mocks.js:2933:26
-     Expected [ Object({ id: '1', text: '12月 29 - 1月 4' }), Object({ id: '2', text: '1月 5 - 1月 11' }), Object({ id: '3', text: '1月 12 - 1月 18' }), Object({ id: '4', text: '1月 19 - 1月 25' }), Object({ id: '5', text: '1月 26 - 2月 1' }), Object({ id: '6', text: '2月 2 - 2月 8' }), Object({ id: '7', text: '2月 9 - 2月 15' }), Object({ id: '8', text: '2月 16 - 2月 22' }), Object({ id: '9', text: '2月 23 - 3月 1' }), Object({ id: '10', text: '3月 2 - 3月 8' }), Object({ id: '11', text: '3月 9 - 3月 15' }), Object({ id: '12', text: '3月 16 - 3月 22' }), Object({ id: '13', text: '3月 23 - 3月 29' }), Object({ id: '14', text: '3月 30 - 4月 5' }), Object({ id: '15', text: '4月 6 - 4月 12' }), Object({ id: '16', text: '4月 13 - 4月 19' }), Object({ id: '17', text: '4月 20 - 4月 26' }), Object({ id: '18', text: '4月 27 - 5月 3' }), Object({ id: '19', text: '5月 4 - 5月 10' }), Object({ id: '20', text: '5月 11 - 5月 17' }), Object({ id: '21', text: '5月 18 - 5月 24' }), Object({ id: '22', text: '5月 25 - 5月 31' }), Object({ id: '23', text: ' ... to contain Object({ id: '1', text: 'Dec 29 - Jan 4' }).
-/Users/hailuabk/Documents/projects/sagely/test/client/web/controllers/calendar-ctrl-spec.js:4133:44
-invoke@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4625:24
-workFn@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-mocks/angular-mocks.js:2933:26
+17) should format send button label for 1 hour delay
+     Message View Controller
+     forEach@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:321:24
+loadModules@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4508:12
+createInjector@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4430:30
+workFn@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-mocks/angular-mocks.js:2922:60
+/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4548:53
+     TypeError: Attempted to assign to readonly property. in /Users/hailuabk/Documents/projects/sagely/test/client/web/controllers/message-view-ctrl-spec.js (line 279)
+/Users/hailuabk/Documents/projects/sagely/test/client/web/controllers/message-view-ctrl-spec.js:279:17
 
-18) should show the print calendar dialog with an invalid last template
-     Calendar Controller Printable Calendar
-     Expected $.month = '11月 2014' to equal 'November 2014'.
-/Users/hailuabk/Documents/projects/sagely/test/client/web/controllers/calendar-ctrl-spec.js:4144:48
-invoke@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4625:24
-workFn@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-mocks/angular-mocks.js:2933:26
-     Expected [ Object({ id: '1', text: '12月 29 - 1月 4' }), Object({ id: '2', text: '1月 5 - 1月 11' }), Object({ id: '3', text: '1月 12 - 1月 18' }), Object({ id: '4', text: '1月 19 - 1月 25' }), Object({ id: '5', text: '1月 26 - 2月 1' }), Object({ id: '6', text: '2月 2 - 2月 8' }), Object({ id: '7', text: '2月 9 - 2月 15' }), Object({ id: '8', text: '2月 16 - 2月 22' }), Object({ id: '9', text: '2月 23 - 3月 1' }), Object({ id: '10', text: '3月 2 - 3月 8' }), Object({ id: '11', text: '3月 9 - 3月 15' }), Object({ id: '12', text: '3月 16 - 3月 22' }), Object({ id: '13', text: '3月 23 - 3月 29' }), Object({ id: '14', text: '3月 30 - 4月 5' }), Object({ id: '15', text: '4月 6 - 4月 12' }), Object({ id: '16', text: '4月 13 - 4月 19' }), Object({ id: '17', text: '4月 20 - 4月 26' }), Object({ id: '18', text: '4月 27 - 5月 3' }), Object({ id: '19', text: '5月 4 - 5月 10' }), Object({ id: '20', text: '5月 11 - 5月 17' }), Object({ id: '21', text: '5月 18 - 5月 24' }), Object({ id: '22', text: '5月 25 - 5月 31' }), Object({ id: '23', text: ' ... to contain Object({ id: '1', text: 'Dec 29 - Jan 4' }).
-/Users/hailuabk/Documents/projects/sagely/test/client/web/controllers/calendar-ctrl-spec.js:4146:44
-invoke@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4625:24
-workFn@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-mocks/angular-mocks.js:2933:26
+18) should format send button label for 24 hour delay
+     Message View Controller
+     forEach@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:321:24
+loadModules@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4508:12
+createInjector@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4430:30
+workFn@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-mocks/angular-mocks.js:2922:60
+/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4548:53
+     TypeError: Attempted to assign to readonly property. in /Users/hailuabk/Documents/projects/sagely/test/client/web/controllers/message-view-ctrl-spec.js (line 293)
+/Users/hailuabk/Documents/projects/sagely/test/client/web/controllers/message-view-ctrl-spec.js:293:17
 
-19) should show the print calendar dialog with an last template that can't be found
-     Calendar Controller Printable Calendar
-     Expected $.month = '11月 2014' to equal 'November 2014'.
-/Users/hailuabk/Documents/projects/sagely/test/client/web/controllers/calendar-ctrl-spec.js:4156:48
-invoke@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4625:24
-workFn@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-mocks/angular-mocks.js:2933:26
+19) should route to form
+     Message View Controller
+     forEach@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:321:24
+loadModules@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4508:12
+createInjector@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4430:30
+workFn@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-mocks/angular-mocks.js:2922:60
+/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4548:53
+     TypeError: undefined is not an object (evaluating 'messageSvcMock._options') in /Users/hailuabk/Documents/projects/sagely/test/client/web/controllers/message-view-ctrl-spec.js (line 307)
+/Users/hailuabk/Documents/projects/sagely/test/client/web/controllers/message-view-ctrl-spec.js:307:23
 
-20) should print a calendar in html mode with a title
-     Calendar Controller Printable Calendar
-     Expected 'http://server.com/calendar/html/invalid date?notes=&template=http%3A%2F%2Fserver.com%2Fapi%2Ffacilities%2F1%2FcalendarTemplates%2F4&user=http%3A%2F%2Fserver.com%2Fapi%2Forganizations%2F1%2Fusers%2F1' to equal 'http://server.com/calendar/html/november-2014?notes=&template=http%3A%2F%2Fserver.com%2Fapi%2Ffacilities%2F1%2FcalendarTemplates%2F4&user=http%3A%2F%2Fserver.com%2Fapi%2Forganizations%2F1%2Fusers%2F1'.
-/Users/hailuabk/Documents/projects/sagely/test/client/web/controllers/calendar-ctrl-spec.js:4205:57
-invoke@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4625:24
-workFn@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-mocks/angular-mocks.js:2933:26
+20) should confirm and succeed delete
+     Message View Controller
+     forEach@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:321:24
+loadModules@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4508:12
+createInjector@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4430:30
+workFn@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-mocks/angular-mocks.js:2922:60
+/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4548:53
+     TypeError: undefined is not an object (evaluating 'messageSvcMock._options') in /Users/hailuabk/Documents/projects/sagely/test/client/web/controllers/message-view-ctrl-spec.js (line 322)
+/Users/hailuabk/Documents/projects/sagely/test/client/web/controllers/message-view-ctrl-spec.js:322:23
 
-21) should print a calendar in weekly mode
-     Calendar Controller Printable Calendar
-     Expected 'http://server.com/calendar/html/5月11_5月17-2014?notes=&template=http%3A%2F%2Fserver.com%2Fapi%2Ffacilities%2F1%2FcalendarTemplates%2F2&user=http%3A%2F%2Fserver.com%2Fapi%2Forganizations%2F1%2Fusers%2F1' to equal 'http://server.com/calendar/html/may11_may17-2014?notes=&template=http%3A%2F%2Fserver.com%2Fapi%2Ffacilities%2F1%2FcalendarTemplates%2F2&user=http%3A%2F%2Fserver.com%2Fapi%2Forganizations%2F1%2Fusers%2F1'.
-/Users/hailuabk/Documents/projects/sagely/test/client/web/controllers/calendar-ctrl-spec.js:4225:57
-invoke@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4625:24
-workFn@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-mocks/angular-mocks.js:2933:26
+21) should confirm and fail delete
+     Message View Controller
+     forEach@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:321:24
+loadModules@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4508:12
+createInjector@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4430:30
+workFn@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-mocks/angular-mocks.js:2922:60
+/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4548:53
+     TypeError: undefined is not an object (evaluating 'messageSvcMock._options') in /Users/hailuabk/Documents/projects/sagely/test/client/web/controllers/message-view-ctrl-spec.js (line 338)
+/Users/hailuabk/Documents/projects/sagely/test/client/web/controllers/message-view-ctrl-spec.js:338:23
 
-22) should print a calendar in daily mode
-     Calendar Controller Printable Calendar
-     Expected 'http://server.com/calendar/html/11月-01-2014?notes=&template=http%3A%2F%2Fserver.com%2Fapi%2Ffacilities%2F1%2FcalendarTemplates%2F3&user=http%3A%2F%2Fserver.com%2Fapi%2Forganizations%2F1%2Fusers%2F1&end=2014-11-01' to equal 'http://server.com/calendar/html/november-01-2014?notes=&template=http%3A%2F%2Fserver.com%2Fapi%2Ffacilities%2F1%2FcalendarTemplates%2F3&user=http%3A%2F%2Fserver.com%2Fapi%2Forganizations%2F1%2Fusers%2F1&end=2014-11-01'.
-/Users/hailuabk/Documents/projects/sagely/test/client/web/controllers/calendar-ctrl-spec.js:4245:57
-invoke@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4625:24
-workFn@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-mocks/angular-mocks.js:2933:26
+22) should not confirm on delete
+     Message View Controller
+     forEach@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:321:24
+loadModules@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4508:12
+createInjector@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4430:30
+workFn@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-mocks/angular-mocks.js:2922:60
+/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4548:53
+     TypeError: undefined is not an object (evaluating 'messageSvcMock._options') in /Users/hailuabk/Documents/projects/sagely/test/client/web/controllers/message-view-ctrl-spec.js (line 357)
+/Users/hailuabk/Documents/projects/sagely/test/client/web/controllers/message-view-ctrl-spec.js:357:23
 
-23) should print a calendar with notes
-     Calendar Controller Printable Calendar
-     Expected 'http://server.com/calendar/html/11月-01-2014?notes=Aromatherapy%20towels%20are%20provided%20before%20each%20meal&template=http%3A%2F%2Fserver.com%2Fapi%2Ffacilities%2F1%2FcalendarTemplates%2F3&user=http%3A%2F%2Fserver.com%2Fapi%2Forganizations%2F1%2Fusers%2F1&end=2014-12-02' to equal 'http://server.com/calendar/html/november-01-2014?notes=Aromatherapy%20towels%20are%20provided%20before%20each%20meal&template=http%3A%2F%2Fserver.com%2Fapi%2Ffacilities%2F1%2FcalendarTemplates%2F3&user=http%3A%2F%2Fserver.com%2Fapi%2Forganizations%2F1%2Fusers%2F1&end=2014-12-02'.
-/Users/hailuabk/Documents/projects/sagely/test/client/web/controllers/calendar-ctrl-spec.js:4266:57
-invoke@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4625:24
-workFn@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-mocks/angular-mocks.js:2933:26
+23) should load all recipients photos
+     Message View Controller
+     forEach@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:321:24
+loadModules@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4508:12
+createInjector@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4430:30
+workFn@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-mocks/angular-mocks.js:2922:60
+/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4548:53
+     TypeError: undefined is not an object (evaluating 'messageSvcMock._options') in /Users/hailuabk/Documents/projects/sagely/test/client/web/controllers/message-view-ctrl-spec.js (line 372)
+/Users/hailuabk/Documents/projects/sagely/test/client/web/controllers/message-view-ctrl-spec.js:372:23
 
-24) should print a calendar with an invalid template
-     Calendar Controller Printable Calendar
-     Expected 'http://server.com/calendar/html/invalid date?notes=&template=http%3A%2F%2Fserver.com%2Fapi%2Ffacilities%2F1%2FcalendarTemplates%2F100&user=http%3A%2F%2Fserver.com%2Fapi%2Forganizations%2F1%2Fusers%2F1' to equal 'http://server.com/calendar/html/november-2014?notes=&template=http%3A%2F%2Fserver.com%2Fapi%2Ffacilities%2F1%2FcalendarTemplates%2F100&user=http%3A%2F%2Fserver.com%2Fapi%2Forganizations%2F1%2Fusers%2F1'.
-/Users/hailuabk/Documents/projects/sagely/test/client/web/controllers/calendar-ctrl-spec.js:4452:57
-invoke@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4625:24
-workFn@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-mocks/angular-mocks.js:2933:26
+24) should not load all recipients photos as they are already loaded
+     Message View Controller
+     forEach@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:321:24
+loadModules@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4508:12
+createInjector@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4430:30
+workFn@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-mocks/angular-mocks.js:2922:60
+/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4548:53
+     TypeError: undefined is not an object (evaluating 'messageSvcMock._options') in /Users/hailuabk/Documents/projects/sagely/test/client/web/controllers/message-view-ctrl-spec.js (line 399)
+/Users/hailuabk/Documents/projects/sagely/test/client/web/controllers/message-view-ctrl-spec.js:399:23
 
-25) should not print a calendar with an invalid date
-     Calendar Controller Printable Calendar
-     Expected undefined to equal 'Invalid date.'.
-/Users/hailuabk/Documents/projects/sagely/test/client/web/controllers/calendar-ctrl-spec.js:4469:41
-invoke@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4625:24
-workFn@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-mocks/angular-mocks.js:2933:26
-     Expected spy analyticsSvcMock.track not to have been called.
-/Users/hailuabk/Documents/projects/sagely/test/client/web/controllers/calendar-ctrl-spec.js:4471:60
-invoke@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4625:24
-workFn@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-mocks/angular-mocks.js:2933:26
-     Expected spy open not to have been called.
-/Users/hailuabk/Documents/projects/sagely/test/client/web/controllers/calendar-ctrl-spec.js:4472:50
-invoke@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4625:24
-workFn@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-mocks/angular-mocks.js:2933:26
+25) should not load recipients photos as photo is undefined
+     Message View Controller
+     forEach@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:321:24
+loadModules@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4508:12
+createInjector@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4430:30
+workFn@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-mocks/angular-mocks.js:2922:60
+/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4548:53
+     TypeError: undefined is not an object (evaluating 'messageSvcMock._options') in /Users/hailuabk/Documents/projects/sagely/test/client/web/controllers/message-view-ctrl-spec.js (line 440)
+/Users/hailuabk/Documents/projects/sagely/test/client/web/controllers/message-view-ctrl-spec.js:440:23
 
-26) should not print a calendar with an invalid end date
-     Calendar Controller Printable Calendar
-     Expected undefined to equal 'Invalid end date.'.
-/Users/hailuabk/Documents/projects/sagely/test/client/web/controllers/calendar-ctrl-spec.js:4487:41
-invoke@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4625:24
-workFn@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-mocks/angular-mocks.js:2933:26
-     Expected spy analyticsSvcMock.track not to have been called.
-/Users/hailuabk/Documents/projects/sagely/test/client/web/controllers/calendar-ctrl-spec.js:4489:60
-invoke@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4625:24
-workFn@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-mocks/angular-mocks.js:2933:26
-     Expected spy open not to have been called.
-/Users/hailuabk/Documents/projects/sagely/test/client/web/controllers/calendar-ctrl-spec.js:4490:50
-invoke@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4625:24
-workFn@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-mocks/angular-mocks.js:2933:26
+26) should show all recipients modal
+     Message View Controller
+     forEach@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:321:24
+loadModules@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4508:12
+createInjector@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4430:30
+workFn@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-mocks/angular-mocks.js:2922:60
+/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4548:53
+     TypeError: undefined is not an object (evaluating 'messageSvcMock._options') in /Users/hailuabk/Documents/projects/sagely/test/client/web/controllers/message-view-ctrl-spec.js (line 468)
+/Users/hailuabk/Documents/projects/sagely/test/client/web/controllers/message-view-ctrl-spec.js:468:23
 
-27) should not print a calendar with an end date before the start date
-     Calendar Controller Printable Calendar
-     Expected undefined to equal 'Start date cannot be after end date.'.
-/Users/hailuabk/Documents/projects/sagely/test/client/web/controllers/calendar-ctrl-spec.js:4505:41
-invoke@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4625:24
-workFn@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-mocks/angular-mocks.js:2933:26
-     Expected spy analyticsSvcMock.track not to have been called.
-/Users/hailuabk/Documents/projects/sagely/test/client/web/controllers/calendar-ctrl-spec.js:4507:60
-invoke@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4625:24
-workFn@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-mocks/angular-mocks.js:2933:26
-     Expected spy open not to have been called.
-/Users/hailuabk/Documents/projects/sagely/test/client/web/controllers/calendar-ctrl-spec.js:4508:50
-invoke@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4625:24
-workFn@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-mocks/angular-mocks.js:2933:26
+27) should not show all recipients modal
+     Message View Controller
+     forEach@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:321:24
+loadModules@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4508:12
+createInjector@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4430:30
+workFn@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-mocks/angular-mocks.js:2922:60
+/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4548:53
+     TypeError: undefined is not an object (evaluating 'messageSvcMock._options') in /Users/hailuabk/Documents/projects/sagely/test/client/web/controllers/message-view-ctrl-spec.js (line 502)
+/Users/hailuabk/Documents/projects/sagely/test/client/web/controllers/message-view-ctrl-spec.js:502:23
 
-28) should not print a calendar with a date range larger than 31 days
-     Calendar Controller Printable Calendar
-     Expected undefined to equal 'Date range must be less than or equal to 31 days.'.
-/Users/hailuabk/Documents/projects/sagely/test/client/web/controllers/calendar-ctrl-spec.js:4523:41
-invoke@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4625:24
-workFn@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-mocks/angular-mocks.js:2933:26
-     Expected spy analyticsSvcMock.track not to have been called.
-/Users/hailuabk/Documents/projects/sagely/test/client/web/controllers/calendar-ctrl-spec.js:4525:60
-invoke@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4625:24
-workFn@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-mocks/angular-mocks.js:2933:26
-     Expected spy open not to have been called.
-/Users/hailuabk/Documents/projects/sagely/test/client/web/controllers/calendar-ctrl-spec.js:4526:50
-invoke@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4625:24
-workFn@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-mocks/angular-mocks.js:2933:26
+28) should get trusted html body with formatted placeholder
+     Message View Controller
+     forEach@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:321:24
+loadModules@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4508:12
+createInjector@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4430:30
+workFn@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-mocks/angular-mocks.js:2922:60
+/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4548:53
+     forEach@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:321:24
+loadModules@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4508:12
+createInjector@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4430:30
+workFn@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-mocks/angular-mocks.js:2922:60
+/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4548:53
 
-29) should not print a calendar with an invalid month
-     Calendar Controller Printable Calendar
-     Expected undefined to equal 'Invalid month.'.
-/Users/hailuabk/Documents/projects/sagely/test/client/web/controllers/calendar-ctrl-spec.js:4540:41
-invoke@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4625:24
-workFn@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-mocks/angular-mocks.js:2933:26
-     Expected spy analyticsSvcMock.track not to have been called.
-/Users/hailuabk/Documents/projects/sagely/test/client/web/controllers/calendar-ctrl-spec.js:4542:60
-invoke@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4625:24
-workFn@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-mocks/angular-mocks.js:2933:26
-     Expected spy open not to have been called.
-/Users/hailuabk/Documents/projects/sagely/test/client/web/controllers/calendar-ctrl-spec.js:4543:50
-invoke@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4625:24
-workFn@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-mocks/angular-mocks.js:2933:26
+29) should format timestamp 10 years ago
+     Message View Controller
+     forEach@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:321:24
+loadModules@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4508:12
+createInjector@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4430:30
+workFn@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-mocks/angular-mocks.js:2922:60
+/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4548:53
+     TypeError: undefined is not a constructor (evaluating 'controller') in /Users/hailuabk/Documents/projects/sagely/test/client/web/controllers/message-view-ctrl-spec.js (line 11)
+getController@/Users/hailuabk/Documents/projects/sagely/test/client/web/controllers/message-view-ctrl-spec.js:11:26
+/Users/hailuabk/Documents/projects/sagely/test/client/web/controllers/message-view-ctrl-spec.js:531:22
+
+30) should format timestamp today 10 minutes ago
+     Message View Controller
+     forEach@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:321:24
+loadModules@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4508:12
+createInjector@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4430:30
+workFn@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-mocks/angular-mocks.js:2922:60
+/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4548:53
+     TypeError: undefined is not a constructor (evaluating 'controller') in /Users/hailuabk/Documents/projects/sagely/test/client/web/controllers/message-view-ctrl-spec.js (line 11)
+getController@/Users/hailuabk/Documents/projects/sagely/test/client/web/controllers/message-view-ctrl-spec.js:11:26
+/Users/hailuabk/Documents/projects/sagely/test/client/web/controllers/message-view-ctrl-spec.js:547:22
+
+31) should format timestamp today 30 minutes from now
+     Message View Controller
+     forEach@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:321:24
+loadModules@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4508:12
+createInjector@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4430:30
+workFn@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-mocks/angular-mocks.js:2922:60
+/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4548:53
+     TypeError: undefined is not a constructor (evaluating 'controller') in /Users/hailuabk/Documents/projects/sagely/test/client/web/controllers/message-view-ctrl-spec.js (line 11)
+getController@/Users/hailuabk/Documents/projects/sagely/test/client/web/controllers/message-view-ctrl-spec.js:11:26
+/Users/hailuabk/Documents/projects/sagely/test/client/web/controllers/message-view-ctrl-spec.js:561:22
+
+32) should format timestamp yesterday
+     Message View Controller
+     forEach@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:321:24
+loadModules@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4508:12
+createInjector@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4430:30
+workFn@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-mocks/angular-mocks.js:2922:60
+/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4548:53
+     TypeError: undefined is not a constructor (evaluating 'controller') in /Users/hailuabk/Documents/projects/sagely/test/client/web/controllers/message-view-ctrl-spec.js (line 11)
+getController@/Users/hailuabk/Documents/projects/sagely/test/client/web/controllers/message-view-ctrl-spec.js:11:26
+/Users/hailuabk/Documents/projects/sagely/test/client/web/controllers/message-view-ctrl-spec.js:574:22
+
+33) should format timestamp for 13 days from now
+     Message View Controller
+     forEach@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:321:24
+loadModules@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4508:12
+createInjector@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4430:30
+workFn@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-mocks/angular-mocks.js:2922:60
+/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4548:53
+     TypeError: undefined is not a constructor (evaluating 'controller') in /Users/hailuabk/Documents/projects/sagely/test/client/web/controllers/message-view-ctrl-spec.js (line 11)
+getController@/Users/hailuabk/Documents/projects/sagely/test/client/web/controllers/message-view-ctrl-spec.js:11:26
+/Users/hailuabk/Documents/projects/sagely/test/client/web/controllers/message-view-ctrl-spec.js:591:22
+
+34) should format timestamp for 16 days from now
+     Message View Controller
+     forEach@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:321:24
+loadModules@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4508:12
+createInjector@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4430:30
+workFn@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-mocks/angular-mocks.js:2922:60
+/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4548:53
+     TypeError: undefined is not a constructor (evaluating 'controller') in /Users/hailuabk/Documents/projects/sagely/test/client/web/controllers/message-view-ctrl-spec.js (line 11)
+getController@/Users/hailuabk/Documents/projects/sagely/test/client/web/controllers/message-view-ctrl-spec.js:11:26
+/Users/hailuabk/Documents/projects/sagely/test/client/web/controllers/message-view-ctrl-spec.js:604:22
+
+35) should format timestamp for 400 days from now
+     Message View Controller
+     forEach@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:321:24
+loadModules@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4508:12
+createInjector@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4430:30
+workFn@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-mocks/angular-mocks.js:2922:60
+/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4548:53
+     TypeError: undefined is not a constructor (evaluating 'controller') in /Users/hailuabk/Documents/projects/sagely/test/client/web/controllers/message-view-ctrl-spec.js (line 11)
+getController@/Users/hailuabk/Documents/projects/sagely/test/client/web/controllers/message-view-ctrl-spec.js:11:26
+/Users/hailuabk/Documents/projects/sagely/test/client/web/controllers/message-view-ctrl-spec.js:617:22
+
+36) should format timestamp for 1000 days from now
+     Message View Controller
+     forEach@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:321:24
+loadModules@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4508:12
+createInjector@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4430:30
+workFn@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-mocks/angular-mocks.js:2922:60
+/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4548:53
+     TypeError: undefined is not a constructor (evaluating 'controller') in /Users/hailuabk/Documents/projects/sagely/test/client/web/controllers/message-view-ctrl-spec.js (line 11)
+getController@/Users/hailuabk/Documents/projects/sagely/test/client/web/controllers/message-view-ctrl-spec.js:11:26
+/Users/hailuabk/Documents/projects/sagely/test/client/web/controllers/message-view-ctrl-spec.js:630:22
+
+37) should format scheduledSendOn
+     Message View Controller
+     forEach@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:321:24
+loadModules@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4508:12
+createInjector@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4430:30
+workFn@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-mocks/angular-mocks.js:2922:60
+/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4548:53
+     TypeError: undefined is not a constructor (evaluating 'controller') in /Users/hailuabk/Documents/projects/sagely/test/client/web/controllers/message-view-ctrl-spec.js (line 11)
+getController@/Users/hailuabk/Documents/projects/sagely/test/client/web/controllers/message-view-ctrl-spec.js:11:26
+/Users/hailuabk/Documents/projects/sagely/test/client/web/controllers/message-view-ctrl-spec.js:643:22
+
+38) should set scope variable on broadcast
+     Message View Controller
+     forEach@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:321:24
+loadModules@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4508:12
+createInjector@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4430:30
+workFn@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-mocks/angular-mocks.js:2922:60
+/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4548:53
+     TypeError: undefined is not a constructor (evaluating 'controller') in /Users/hailuabk/Documents/projects/sagely/test/client/web/controllers/message-view-ctrl-spec.js (line 11)
+getController@/Users/hailuabk/Documents/projects/sagely/test/client/web/controllers/message-view-ctrl-spec.js:11:26
+/Users/hailuabk/Documents/projects/sagely/test/client/web/controllers/message-view-ctrl-spec.js:649:22
+
+39) should properly initialize the controller
+     Messages Folder Controller
+     forEach@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:321:24
+loadModules@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4508:12
+createInjector@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4430:30
+workFn@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-mocks/angular-mocks.js:2922:60
+/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4548:53
+     TypeError: undefined is not a constructor (evaluating 'controller') in /Users/hailuabk/Documents/projects/sagely/test/client/web/controllers/messages-folder-ctrl-spec.js (line 11)
+getController@/Users/hailuabk/Documents/projects/sagely/test/client/web/controllers/messages-folder-ctrl-spec.js:11:24
+/Users/hailuabk/Documents/projects/sagely/test/client/web/controllers/messages-folder-ctrl-spec.js:41:31
+
+40) should broadcast viewContentLoaded
+     Messages Folder Controller
+     forEach@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:321:24
+loadModules@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4508:12
+createInjector@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4430:30
+workFn@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-mocks/angular-mocks.js:2922:60
+/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4548:53
+     forEach@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:321:24
+loadModules@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4508:12
+createInjector@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4430:30
+workFn@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-mocks/angular-mocks.js:2922:60
+/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4548:53
+
+41) should display draft folder
+     Messages Folder Controller
+     forEach@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:321:24
+loadModules@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4508:12
+createInjector@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4430:30
+workFn@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-mocks/angular-mocks.js:2922:60
+/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4548:53
+     forEach@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:321:24
+loadModules@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4508:12
+createInjector@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4430:30
+workFn@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-mocks/angular-mocks.js:2922:60
+/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4548:53
+
+42) should display pending folder
+     Messages Folder Controller
+     forEach@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:321:24
+loadModules@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4508:12
+createInjector@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4430:30
+workFn@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-mocks/angular-mocks.js:2922:60
+/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4548:53
+     forEach@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:321:24
+loadModules@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4508:12
+createInjector@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4430:30
+workFn@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-mocks/angular-mocks.js:2922:60
+/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4548:53
+
+43) should display sent folder
+     Messages Folder Controller
+     forEach@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:321:24
+loadModules@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4508:12
+createInjector@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4430:30
+workFn@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-mocks/angular-mocks.js:2922:60
+/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4548:53
+     forEach@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:321:24
+loadModules@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4508:12
+createInjector@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4430:30
+workFn@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-mocks/angular-mocks.js:2922:60
+/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4548:53
+
+44) should route to new form with no folder counts
+     Messages Folder Controller
+     forEach@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:321:24
+loadModules@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4508:12
+createInjector@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4430:30
+workFn@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-mocks/angular-mocks.js:2922:60
+/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4548:53
+     forEach@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:321:24
+loadModules@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4508:12
+createInjector@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4430:30
+workFn@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-mocks/angular-mocks.js:2922:60
+/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4548:53
+
+45) should route to sent folder because it has message
+     Messages Folder Controller
+     forEach@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:321:24
+loadModules@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4508:12
+createInjector@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4430:30
+workFn@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-mocks/angular-mocks.js:2922:60
+/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4548:53
+     forEach@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:321:24
+loadModules@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4508:12
+createInjector@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4430:30
+workFn@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-mocks/angular-mocks.js:2922:60
+/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4548:53
+
+46) should route to pending folder because it has message
+     Messages Folder Controller
+     forEach@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:321:24
+loadModules@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4508:12
+createInjector@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4430:30
+workFn@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-mocks/angular-mocks.js:2922:60
+/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4548:53
+     forEach@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:321:24
+loadModules@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4508:12
+createInjector@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4430:30
+workFn@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-mocks/angular-mocks.js:2922:60
+/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4548:53
+
+47) should route to draft folder because it has message
+     Messages Folder Controller
+     forEach@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:321:24
+loadModules@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4508:12
+createInjector@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4430:30
+workFn@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-mocks/angular-mocks.js:2922:60
+/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4548:53
+     forEach@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:321:24
+loadModules@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4508:12
+createInjector@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4430:30
+workFn@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-mocks/angular-mocks.js:2922:60
+/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4548:53
+
+48) should route to page 2 of draft folder
+     Messages Folder Controller
+     forEach@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:321:24
+loadModules@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4508:12
+createInjector@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4430:30
+workFn@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-mocks/angular-mocks.js:2922:60
+/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4548:53
+     forEach@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:321:24
+loadModules@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4508:12
+createInjector@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4430:30
+workFn@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-mocks/angular-mocks.js:2922:60
+/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4548:53
+
+49) should route to form when message clicked in draft folder
+     Messages Folder Controller
+     forEach@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:321:24
+loadModules@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4508:12
+createInjector@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4430:30
+workFn@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-mocks/angular-mocks.js:2922:60
+/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4548:53
+     TypeError: undefined is not a constructor (evaluating 'controller') in /Users/hailuabk/Documents/projects/sagely/test/client/web/controllers/messages-folder-ctrl-spec.js (line 11)
+getController@/Users/hailuabk/Documents/projects/sagely/test/client/web/controllers/messages-folder-ctrl-spec.js:11:24
+/Users/hailuabk/Documents/projects/sagely/test/client/web/controllers/messages-folder-ctrl-spec.js:138:20
+
+50) should route to view when message clicked in pending folder
+     Messages Folder Controller
+     forEach@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:321:24
+loadModules@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4508:12
+createInjector@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4430:30
+workFn@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-mocks/angular-mocks.js:2922:60
+/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4548:53
+     TypeError: undefined is not a constructor (evaluating 'controller') in /Users/hailuabk/Documents/projects/sagely/test/client/web/controllers/messages-folder-ctrl-spec.js (line 11)
+getController@/Users/hailuabk/Documents/projects/sagely/test/client/web/controllers/messages-folder-ctrl-spec.js:11:24
+/Users/hailuabk/Documents/projects/sagely/test/client/web/controllers/messages-folder-ctrl-spec.js:153:20
+
+51) should not route anywher when message clicked but no data
+     Messages Folder Controller
+     forEach@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:321:24
+loadModules@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4508:12
+createInjector@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4430:30
+workFn@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-mocks/angular-mocks.js:2922:60
+/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4548:53
+     TypeError: undefined is not a constructor (evaluating 'controller') in /Users/hailuabk/Documents/projects/sagely/test/client/web/controllers/messages-folder-ctrl-spec.js (line 11)
+getController@/Users/hailuabk/Documents/projects/sagely/test/client/web/controllers/messages-folder-ctrl-spec.js:11:24
+/Users/hailuabk/Documents/projects/sagely/test/client/web/controllers/messages-folder-ctrl-spec.js:168:20
+
+52) should load a page of messages and sort
+     Messages Folder Controller
+     forEach@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:321:24
+loadModules@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4508:12
+createInjector@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4430:30
+workFn@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-mocks/angular-mocks.js:2922:60
+/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4548:53
+     forEach@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:321:24
+loadModules@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4508:12
+createInjector@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4430:30
+workFn@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-mocks/angular-mocks.js:2922:60
+/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4548:53
+
+53) should update counts on broadcast
+     Messages Folder Controller
+     forEach@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:321:24
+loadModules@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4508:12
+createInjector@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4430:30
+workFn@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-mocks/angular-mocks.js:2922:60
+/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4548:53
+     TypeError: undefined is not an object (evaluating 'messageSvcMock._options') in /Users/hailuabk/Documents/projects/sagely/test/client/web/controllers/messages-folder-ctrl-spec.js (line 205)
+/Users/hailuabk/Documents/projects/sagely/test/client/web/controllers/messages-folder-ctrl-spec.js:205:21
+
+54) should properly initialize the controller
+     Messages Search Controller
+     forEach@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:321:24
+loadModules@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4508:12
+createInjector@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4430:30
+workFn@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-mocks/angular-mocks.js:2922:60
+/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4548:53
+     TypeError: undefined is not a constructor (evaluating 'controller') in /Users/hailuabk/Documents/projects/sagely/test/client/web/controllers/messages-search-ctrl-spec.js (line 11)
+getController@/Users/hailuabk/Documents/projects/sagely/test/client/web/controllers/messages-search-ctrl-spec.js:11:24
+/Users/hailuabk/Documents/projects/sagely/test/client/web/controllers/messages-search-ctrl-spec.js:39:31
+
+55) should broadcast viewContentLoaded
+     Messages Search Controller
+     forEach@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:321:24
+loadModules@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4508:12
+createInjector@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4430:30
+workFn@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-mocks/angular-mocks.js:2922:60
+/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4548:53
+     forEach@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:321:24
+loadModules@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4508:12
+createInjector@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4430:30
+workFn@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-mocks/angular-mocks.js:2922:60
+/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4548:53
+
+56) should run simple search
+     Messages Search Controller
+     forEach@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:321:24
+loadModules@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4508:12
+createInjector@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4430:30
+workFn@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-mocks/angular-mocks.js:2922:60
+/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4548:53
+     TypeError: undefined is not an object (evaluating 'messageSvcMock._options') in /Users/hailuabk/Documents/projects/sagely/test/client/web/controllers/messages-search-ctrl-spec.js (line 66)
+/Users/hailuabk/Documents/projects/sagely/test/client/web/controllers/messages-search-ctrl-spec.js:66:21
+
+57) should run advanced search
+     Messages Search Controller
+     forEach@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:321:24
+loadModules@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4508:12
+createInjector@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4430:30
+workFn@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-mocks/angular-mocks.js:2922:60
+/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4548:53
+     TypeError: undefined is not an object (evaluating 'messageSvcMock._options') in /Users/hailuabk/Documents/projects/sagely/test/client/web/controllers/messages-search-ctrl-spec.js (line 77)
+/Users/hailuabk/Documents/projects/sagely/test/client/web/controllers/messages-search-ctrl-spec.js:77:21
+
+58) should route to page 2 of search results
+     Messages Search Controller
+     forEach@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:321:24
+loadModules@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4508:12
+createInjector@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4430:30
+workFn@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-mocks/angular-mocks.js:2922:60
+/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4548:53
+     TypeError: undefined is not an object (evaluating 'messageSvcMock._options') in /Users/hailuabk/Documents/projects/sagely/test/client/web/controllers/messages-search-ctrl-spec.js (line 89)
+/Users/hailuabk/Documents/projects/sagely/test/client/web/controllers/messages-search-ctrl-spec.js:89:21
+
+59) should run setUsers when users are null
+     Messages Search Controller
+     forEach@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:321:24
+loadModules@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4508:12
+createInjector@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4430:30
+workFn@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-mocks/angular-mocks.js:2922:60
+/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4548:53
+     TypeError: undefined is not an object (evaluating 'messageSvcMock._options') in /Users/hailuabk/Documents/projects/sagely/test/client/web/controllers/messages-search-ctrl-spec.js (line 102)
+/Users/hailuabk/Documents/projects/sagely/test/client/web/controllers/messages-search-ctrl-spec.js:102:21
+
+60) should refresh search on order broadcast
+     Messages Search Controller
+     forEach@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:321:24
+loadModules@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4508:12
+createInjector@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4430:30
+workFn@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-mocks/angular-mocks.js:2922:60
+/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4548:53
+     forEach@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:321:24
+loadModules@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4508:12
+createInjector@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4430:30
+workFn@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-mocks/angular-mocks.js:2922:60
+/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4548:53
+
+61) should formatted author on decodedSearchParams broadcast
+     Messages Search Controller
+     forEach@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:321:24
+loadModules@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4508:12
+createInjector@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4430:30
+workFn@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-mocks/angular-mocks.js:2922:60
+/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4548:53
+     TypeError: undefined is not an object (evaluating 'messageSvcMock._options') in /Users/hailuabk/Documents/projects/sagely/test/client/web/controllers/messages-search-ctrl-spec.js (line 137)
+/Users/hailuabk/Documents/projects/sagely/test/client/web/controllers/messages-search-ctrl-spec.js:137:21
+
+62) should formatted author on user broadcast
+     Messages Search Controller
+     forEach@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:321:24
+loadModules@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4508:12
+createInjector@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4430:30
+workFn@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-mocks/angular-mocks.js:2922:60
+/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4548:53
+     TypeError: undefined is not an object (evaluating 'messageSvcMock._options') in /Users/hailuabk/Documents/projects/sagely/test/client/web/controllers/messages-search-ctrl-spec.js (line 154)
+/Users/hailuabk/Documents/projects/sagely/test/client/web/controllers/messages-search-ctrl-spec.js:154:21
+
+63) should run advanced search requiring Javascript filtering
+     Messages Search Controller
+     forEach@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:321:24
+loadModules@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4508:12
+createInjector@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4430:30
+workFn@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-mocks/angular-mocks.js:2922:60
+/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4548:53
+     TypeError: undefined is not an object (evaluating 'messageSvcMock._options') in /Users/hailuabk/Documents/projects/sagely/test/client/web/controllers/messages-search-ctrl-spec.js (line 172)
+/Users/hailuabk/Documents/projects/sagely/test/client/web/controllers/messages-search-ctrl-spec.js:172:21
+
+64) should run advanced search requiring Javascript filtering 2
+     Messages Search Controller
+     forEach@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:321:24
+loadModules@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4508:12
+createInjector@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4430:30
+workFn@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-mocks/angular-mocks.js:2922:60
+/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4548:53
+     TypeError: undefined is not an object (evaluating 'messageSvcMock._options') in /Users/hailuabk/Documents/projects/sagely/test/client/web/controllers/messages-search-ctrl-spec.js (line 184)
+/Users/hailuabk/Documents/projects/sagely/test/client/web/controllers/messages-search-ctrl-spec.js:184:21
+
+65) should format author for filter
+     Messages Search Controller
+     forEach@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:321:24
+loadModules@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4508:12
+createInjector@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4430:30
+workFn@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-mocks/angular-mocks.js:2922:60
+/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4548:53
+     TypeError: undefined is not a constructor (evaluating 'controller') in /Users/hailuabk/Documents/projects/sagely/test/client/web/controllers/messages-search-ctrl-spec.js (line 11)
+getController@/Users/hailuabk/Documents/projects/sagely/test/client/web/controllers/messages-search-ctrl-spec.js:11:24
+/Users/hailuabk/Documents/projects/sagely/test/client/web/controllers/messages-search-ctrl-spec.js:194:20
+
+66) should not display author when missing user
+     Messages Search Controller
+     forEach@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:321:24
+loadModules@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4508:12
+createInjector@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4430:30
+workFn@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-mocks/angular-mocks.js:2922:60
+/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4548:53
+     TypeError: undefined is not an object (evaluating 'messageSvcMock._options') in /Users/hailuabk/Documents/projects/sagely/test/client/web/controllers/messages-search-ctrl-spec.js (line 199)
+/Users/hailuabk/Documents/projects/sagely/test/client/web/controllers/messages-search-ctrl-spec.js:199:21
+
+67) should format resident for filter
+     Messages Search Controller
+     forEach@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:321:24
+loadModules@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4508:12
+createInjector@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4430:30
+workFn@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-mocks/angular-mocks.js:2922:60
+/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4548:53
+     TypeError: undefined is not a constructor (evaluating 'controller') in /Users/hailuabk/Documents/projects/sagely/test/client/web/controllers/messages-search-ctrl-spec.js (line 11)
+getController@/Users/hailuabk/Documents/projects/sagely/test/client/web/controllers/messages-search-ctrl-spec.js:11:24
+/Users/hailuabk/Documents/projects/sagely/test/client/web/controllers/messages-search-ctrl-spec.js:205:20
+
+68) should not display resident missing resident ID
+     Messages Search Controller
+     forEach@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:321:24
+loadModules@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4508:12
+createInjector@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4430:30
+workFn@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-mocks/angular-mocks.js:2922:60
+/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4548:53
+     TypeError: undefined is not a constructor (evaluating 'controller') in /Users/hailuabk/Documents/projects/sagely/test/client/web/controllers/messages-search-ctrl-spec.js (line 11)
+getController@/Users/hailuabk/Documents/projects/sagely/test/client/web/controllers/messages-search-ctrl-spec.js:11:24
+/Users/hailuabk/Documents/projects/sagely/test/client/web/controllers/messages-search-ctrl-spec.js:211:20
+
+69) should not display resident missing resident params
+     Messages Search Controller
+     forEach@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:321:24
+loadModules@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4508:12
+createInjector@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4430:30
+workFn@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-mocks/angular-mocks.js:2922:60
+/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4548:53
+     TypeError: undefined is not a constructor (evaluating 'controller') in /Users/hailuabk/Documents/projects/sagely/test/client/web/controllers/messages-search-ctrl-spec.js (line 11)
+getController@/Users/hailuabk/Documents/projects/sagely/test/client/web/controllers/messages-search-ctrl-spec.js:11:24
+/Users/hailuabk/Documents/projects/sagely/test/client/web/controllers/messages-search-ctrl-spec.js:216:20
+
+70) should format family user for filter
+     Messages Search Controller
+     forEach@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:321:24
+loadModules@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4508:12
+createInjector@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4430:30
+workFn@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-mocks/angular-mocks.js:2922:60
+/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4548:53
+     TypeError: undefined is not a constructor (evaluating 'controller') in /Users/hailuabk/Documents/projects/sagely/test/client/web/controllers/messages-search-ctrl-spec.js (line 11)
+getController@/Users/hailuabk/Documents/projects/sagely/test/client/web/controllers/messages-search-ctrl-spec.js:11:24
+/Users/hailuabk/Documents/projects/sagely/test/client/web/controllers/messages-search-ctrl-spec.js:221:20
+
+71) should not display resident missing familyUser ID
+     Messages Search Controller
+     forEach@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:321:24
+loadModules@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4508:12
+createInjector@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4430:30
+workFn@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-mocks/angular-mocks.js:2922:60
+/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4548:53
+     TypeError: undefined is not a constructor (evaluating 'controller') in /Users/hailuabk/Documents/projects/sagely/test/client/web/controllers/messages-search-ctrl-spec.js (line 11)
+getController@/Users/hailuabk/Documents/projects/sagely/test/client/web/controllers/messages-search-ctrl-spec.js:11:24
+/Users/hailuabk/Documents/projects/sagely/test/client/web/controllers/messages-search-ctrl-spec.js:240:20
+
+72) should not display resident missing familyUser params
+     Messages Search Controller
+     forEach@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:321:24
+loadModules@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4508:12
+createInjector@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4430:30
+workFn@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-mocks/angular-mocks.js:2922:60
+/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4548:53
+     TypeError: undefined is not a constructor (evaluating 'controller') in /Users/hailuabk/Documents/projects/sagely/test/client/web/controllers/messages-search-ctrl-spec.js (line 11)
+getController@/Users/hailuabk/Documents/projects/sagely/test/client/web/controllers/messages-search-ctrl-spec.js:11:24
+/Users/hailuabk/Documents/projects/sagely/test/client/web/controllers/messages-search-ctrl-spec.js:245:20
+
+73) should not update authorDisplayStr
+     Messages Search Controller
+     forEach@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:321:24
+loadModules@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4508:12
+createInjector@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4430:30
+workFn@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-mocks/angular-mocks.js:2922:60
+/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4548:53
+     TypeError: undefined is not a constructor (evaluating 'controller') in /Users/hailuabk/Documents/projects/sagely/test/client/web/controllers/messages-search-ctrl-spec.js (line 11)
+getController@/Users/hailuabk/Documents/projects/sagely/test/client/web/controllers/messages-search-ctrl-spec.js:11:24
+/Users/hailuabk/Documents/projects/sagely/test/client/web/controllers/messages-search-ctrl-spec.js:250:20
+
+74) should format two dates
+     Messages Search Controller
+     forEach@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:321:24
+loadModules@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4508:12
+createInjector@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4430:30
+workFn@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-mocks/angular-mocks.js:2922:60
+/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4548:53
+     TypeError: undefined is not a constructor (evaluating 'controller') in /Users/hailuabk/Documents/projects/sagely/test/client/web/controllers/messages-search-ctrl-spec.js (line 11)
+getController@/Users/hailuabk/Documents/projects/sagely/test/client/web/controllers/messages-search-ctrl-spec.js:11:24
+/Users/hailuabk/Documents/projects/sagely/test/client/web/controllers/messages-search-ctrl-spec.js:256:20
+
+75) should not display two dates for empty filter
+     Messages Search Controller
+     forEach@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:321:24
+loadModules@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4508:12
+createInjector@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4430:30
+workFn@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-mocks/angular-mocks.js:2922:60
+/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4548:53
+     TypeError: undefined is not a constructor (evaluating 'controller') in /Users/hailuabk/Documents/projects/sagely/test/client/web/controllers/messages-search-ctrl-spec.js (line 11)
+getController@/Users/hailuabk/Documents/projects/sagely/test/client/web/controllers/messages-search-ctrl-spec.js:11:24
+/Users/hailuabk/Documents/projects/sagely/test/client/web/controllers/messages-search-ctrl-spec.js:267:20
+
+76) should not display two dates for filter missing start
+     Messages Search Controller
+     forEach@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:321:24
+loadModules@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4508:12
+createInjector@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4430:30
+workFn@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-mocks/angular-mocks.js:2922:60
+/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4548:53
+     TypeError: undefined is not a constructor (evaluating 'controller') in /Users/hailuabk/Documents/projects/sagely/test/client/web/controllers/messages-search-ctrl-spec.js (line 11)
+getController@/Users/hailuabk/Documents/projects/sagely/test/client/web/controllers/messages-search-ctrl-spec.js:11:24
+/Users/hailuabk/Documents/projects/sagely/test/client/web/controllers/messages-search-ctrl-spec.js:272:20
+
+77) should not display two dates for filter missing end
+     Messages Search Controller
+     forEach@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:321:24
+loadModules@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4508:12
+createInjector@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4430:30
+workFn@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-mocks/angular-mocks.js:2922:60
+/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4548:53
+     TypeError: undefined is not a constructor (evaluating 'controller') in /Users/hailuabk/Documents/projects/sagely/test/client/web/controllers/messages-search-ctrl-spec.js (line 11)
+getController@/Users/hailuabk/Documents/projects/sagely/test/client/web/controllers/messages-search-ctrl-spec.js:11:24
+/Users/hailuabk/Documents/projects/sagely/test/client/web/controllers/messages-search-ctrl-spec.js:278:20
+
+78) should go to form
+     Messages Search Controller
+     forEach@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:321:24
+loadModules@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4508:12
+createInjector@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4430:30
+workFn@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-mocks/angular-mocks.js:2922:60
+/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4548:53
+     TypeError: undefined is not a constructor (evaluating 'controller') in /Users/hailuabk/Documents/projects/sagely/test/client/web/controllers/messages-search-ctrl-spec.js (line 11)
+getController@/Users/hailuabk/Documents/projects/sagely/test/client/web/controllers/messages-search-ctrl-spec.js:11:24
+/Users/hailuabk/Documents/projects/sagely/test/client/web/controllers/messages-search-ctrl-spec.js:284:20
+
+79) should go to view
+     Messages Search Controller
+     forEach@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:321:24
+loadModules@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4508:12
+createInjector@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4430:30
+workFn@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-mocks/angular-mocks.js:2922:60
+/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4548:53
+     TypeError: undefined is not a constructor (evaluating 'controller') in /Users/hailuabk/Documents/projects/sagely/test/client/web/controllers/messages-search-ctrl-spec.js (line 11)
+getController@/Users/hailuabk/Documents/projects/sagely/test/client/web/controllers/messages-search-ctrl-spec.js:11:24
+/Users/hailuabk/Documents/projects/sagely/test/client/web/controllers/messages-search-ctrl-spec.js:290:20
+
+80) should not go to view or form
+     Messages Search Controller
+     forEach@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:321:24
+loadModules@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4508:12
+createInjector@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4430:30
+workFn@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-mocks/angular-mocks.js:2922:60
+/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4548:53
+     TypeError: undefined is not a constructor (evaluating 'controller') in /Users/hailuabk/Documents/projects/sagely/test/client/web/controllers/messages-search-ctrl-spec.js (line 11)
+getController@/Users/hailuabk/Documents/projects/sagely/test/client/web/controllers/messages-search-ctrl-spec.js:11:24
+/Users/hailuabk/Documents/projects/sagely/test/client/web/controllers/messages-search-ctrl-spec.js:296:20
+
+81) should go to folder after filter removal
+     Messages Search Controller
+     forEach@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:321:24
+loadModules@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4508:12
+createInjector@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4430:30
+workFn@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-mocks/angular-mocks.js:2922:60
+/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4548:53
+     TypeError: undefined is not a constructor (evaluating 'controller') in /Users/hailuabk/Documents/projects/sagely/test/client/web/controllers/messages-search-ctrl-spec.js (line 11)
+getController@/Users/hailuabk/Documents/projects/sagely/test/client/web/controllers/messages-search-ctrl-spec.js:11:24
+/Users/hailuabk/Documents/projects/sagely/test/client/web/controllers/messages-search-ctrl-spec.js:306:20
+
+82) should go to simple search after filter removal
+     Messages Search Controller
+     forEach@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:321:24
+loadModules@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4508:12
+createInjector@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4430:30
+workFn@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-mocks/angular-mocks.js:2922:60
+/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4548:53
+     TypeError: undefined is not an object (evaluating 'messageSvcMock._options') in /Users/hailuabk/Documents/projects/sagely/test/client/web/controllers/messages-search-ctrl-spec.js (line 316)
+/Users/hailuabk/Documents/projects/sagely/test/client/web/controllers/messages-search-ctrl-spec.js:316:21
+
+83) should go to advanced search after filter removal
+     Messages Search Controller
+     forEach@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:321:24
+loadModules@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4508:12
+createInjector@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4430:30
+workFn@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-mocks/angular-mocks.js:2922:60
+/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4548:53
+     TypeError: undefined is not an object (evaluating 'messageSvcMock._options') in /Users/hailuabk/Documents/projects/sagely/test/client/web/controllers/messages-search-ctrl-spec.js (line 328)
+/Users/hailuabk/Documents/projects/sagely/test/client/web/controllers/messages-search-ctrl-spec.js:328:21
