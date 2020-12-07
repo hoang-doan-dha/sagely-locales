@@ -552,3 +552,241 @@ workFn@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-mocks/
 /Users/hailuabk/Documents/projects/sagely/test/client/common/services/newsletter-svc-spec.js:244:31
 invoke@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4625:24
 workFn@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-mocks/angular-mocks.js:2933:26
+
+======
+
+1) should successfully load the assessment controller
+     Assessment Controller
+     undefined
+htmlEscapeValue@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-translate/angular-translate.js:329:17
+escape@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-translate/angular-translate.js:133:32
+/Users/hailuabk/Documents/projects/sagely/bower_components/angular-translate/angular-translate.js:240:47
+forEach@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:321:24
+applyStrategies@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-translate/angular-translate.js:236:22
+sanitize@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-translate/angular-translate.js:322:31
+interpolate@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-translate/angular-translate.js:2903:57
+determineTranslationInstant@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-translate/angular-translate.js:2054:44
+instant@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-translate/angular-translate.js:2604:49
+/Users/hailuabk/Documents/projects/sagely/client/web/js/services/unsavedChangesSvc.js:9:812
+[native code]
+processQueue@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:15757:30
+/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:15773:39
+$eval@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:17025:28
+$digest@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:16841:36
+flush@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-mocks/angular-mocks.js:1779:45
+/Users/hailuabk/Documents/projects/sagely/test/client/web/controllers/assessment-ctrl-spec.js:67:25
+invoke@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4625:24
+workFn@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-mocks/angular-mocks.js:2933:26
+
+2) should not fail if the data is loaded before the start event
+     Assessment Controller
+     undefined
+htmlEscapeValue@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-translate/angular-translate.js:329:17
+escape@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-translate/angular-translate.js:133:32
+/Users/hailuabk/Documents/projects/sagely/bower_components/angular-translate/angular-translate.js:240:47
+forEach@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:321:24
+applyStrategies@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-translate/angular-translate.js:236:22
+sanitize@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-translate/angular-translate.js:322:31
+interpolate@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-translate/angular-translate.js:2903:57
+determineTranslationInstant@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-translate/angular-translate.js:2054:44
+instant@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-translate/angular-translate.js:2604:49
+/Users/hailuabk/Documents/projects/sagely/client/web/js/services/unsavedChangesSvc.js:9:812
+[native code]
+processQueue@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:15757:30
+/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:15773:39
+$eval@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:17025:28
+$digest@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:16841:36
+flush@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-mocks/angular-mocks.js:1779:45
+/Users/hailuabk/Documents/projects/sagely/test/client/web/controllers/assessment-ctrl-spec.js:74:25
+invoke@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4625:24
+workFn@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-mocks/angular-mocks.js:2933:26
+
+3) should successfully load the assessment controller for a sagely user
+     Assessment Controller
+     undefined
+htmlEscapeValue@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-translate/angular-translate.js:329:17
+escape@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-translate/angular-translate.js:133:32
+/Users/hailuabk/Documents/projects/sagely/bower_components/angular-translate/angular-translate.js:240:47
+forEach@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:321:24
+applyStrategies@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-translate/angular-translate.js:236:22
+sanitize@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-translate/angular-translate.js:322:31
+interpolate@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-translate/angular-translate.js:2903:57
+determineTranslationInstant@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-translate/angular-translate.js:2054:44
+instant@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-translate/angular-translate.js:2604:49
+/Users/hailuabk/Documents/projects/sagely/client/web/js/services/unsavedChangesSvc.js:9:812
+[native code]
+processQueue@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:15757:30
+/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:15773:39
+$eval@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:17025:28
+$digest@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:16841:36
+flush@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-mocks/angular-mocks.js:1779:45
+/Users/hailuabk/Documents/projects/sagely/test/client/web/controllers/assessment-ctrl-spec.js:80:25
+invoke@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4625:24
+workFn@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-mocks/angular-mocks.js:2933:26
+
+4) should set the available names and load the baseline if the type is changed
+     Assessment Controller
+     undefined
+htmlEscapeValue@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-translate/angular-translate.js:329:17
+escape@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-translate/angular-translate.js:133:32
+/Users/hailuabk/Documents/projects/sagely/bower_components/angular-translate/angular-translate.js:240:47
+forEach@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:321:24
+applyStrategies@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-translate/angular-translate.js:236:22
+sanitize@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-translate/angular-translate.js:322:31
+interpolate@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-translate/angular-translate.js:2903:57
+determineTranslationInstant@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-translate/angular-translate.js:2054:44
+instant@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-translate/angular-translate.js:2604:49
+/Users/hailuabk/Documents/projects/sagely/client/web/js/services/unsavedChangesSvc.js:9:812
+[native code]
+processQueue@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:15757:30
+/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:15773:39
+$eval@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:17025:28
+$digest@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:16841:36
+flush@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-mocks/angular-mocks.js:1779:45
+/Users/hailuabk/Documents/projects/sagely/test/client/web/controllers/assessment-ctrl-spec.js:91:25
+invoke@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4625:24
+workFn@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-mocks/angular-mocks.js:2933:26
+
+5) should select the available name if there is only one and handle no baseline
+     Assessment Controller
+     undefined
+htmlEscapeValue@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-translate/angular-translate.js:329:17
+escape@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-translate/angular-translate.js:133:32
+/Users/hailuabk/Documents/projects/sagely/bower_components/angular-translate/angular-translate.js:240:47
+forEach@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:321:24
+applyStrategies@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-translate/angular-translate.js:236:22
+sanitize@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-translate/angular-translate.js:322:31
+interpolate@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-translate/angular-translate.js:2903:57
+determineTranslationInstant@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-translate/angular-translate.js:2054:44
+instant@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-translate/angular-translate.js:2604:49
+/Users/hailuabk/Documents/projects/sagely/client/web/js/services/unsavedChangesSvc.js:9:812
+[native code]
+processQueue@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:15757:30
+/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:15773:39
+$eval@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:17025:28
+$digest@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:16841:36
+flush@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-mocks/angular-mocks.js:1779:45
+/Users/hailuabk/Documents/projects/sagely/test/client/web/controllers/assessment-ctrl-spec.js:114:25
+invoke@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4625:24
+workFn@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-mocks/angular-mocks.js:2933:26
+
+6) should confirm a baseline toggle if there is an existing baseline
+     Assessment Controller
+     undefined
+htmlEscapeValue@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-translate/angular-translate.js:329:17
+escape@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-translate/angular-translate.js:133:32
+/Users/hailuabk/Documents/projects/sagely/bower_components/angular-translate/angular-translate.js:240:47
+forEach@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:321:24
+applyStrategies@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-translate/angular-translate.js:236:22
+sanitize@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-translate/angular-translate.js:322:31
+interpolate@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-translate/angular-translate.js:2903:57
+determineTranslationInstant@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-translate/angular-translate.js:2054:44
+instant@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-translate/angular-translate.js:2604:49
+/Users/hailuabk/Documents/projects/sagely/client/web/js/services/unsavedChangesSvc.js:9:812
+[native code]
+processQueue@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:15757:30
+/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:15773:39
+$eval@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:17025:28
+$digest@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:16841:36
+/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:17064:33
+flush@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-mocks/angular-mocks.js:126:34
+flush@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-mocks/angular-mocks.js:2039:25
+/Users/hailuabk/Documents/projects/sagely/test/client/web/controllers/assessment-ctrl-spec.js:148:21
+invoke@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4625:24
+workFn@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-mocks/angular-mocks.js:2933:26
+
+7) should reject a baseline toggle
+     Assessment Controller
+     undefined
+htmlEscapeValue@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-translate/angular-translate.js:329:17
+escape@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-translate/angular-translate.js:133:32
+/Users/hailuabk/Documents/projects/sagely/bower_components/angular-translate/angular-translate.js:240:47
+forEach@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:321:24
+applyStrategies@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-translate/angular-translate.js:236:22
+sanitize@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-translate/angular-translate.js:322:31
+interpolate@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-translate/angular-translate.js:2903:57
+determineTranslationInstant@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-translate/angular-translate.js:2054:44
+instant@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-translate/angular-translate.js:2604:49
+/Users/hailuabk/Documents/projects/sagely/client/web/js/services/unsavedChangesSvc.js:9:812
+[native code]
+processQueue@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:15757:30
+/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:15773:39
+$eval@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:17025:28
+$digest@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:16841:36
+/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:17064:33
+flush@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-mocks/angular-mocks.js:126:34
+flush@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-mocks/angular-mocks.js:2039:25
+/Users/hailuabk/Documents/projects/sagely/test/client/web/controllers/assessment-ctrl-spec.js:157:21
+invoke@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4625:24
+workFn@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-mocks/angular-mocks.js:2933:26
+
+8) should handle a save
+     Assessment Controller
+     undefined
+htmlEscapeValue@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-translate/angular-translate.js:329:17
+escape@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-translate/angular-translate.js:133:32
+/Users/hailuabk/Documents/projects/sagely/bower_components/angular-translate/angular-translate.js:240:47
+forEach@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:321:24
+applyStrategies@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-translate/angular-translate.js:236:22
+sanitize@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-translate/angular-translate.js:322:31
+interpolate@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-translate/angular-translate.js:2903:57
+determineTranslationInstant@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-translate/angular-translate.js:2054:44
+instant@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-translate/angular-translate.js:2604:49
+/Users/hailuabk/Documents/projects/sagely/client/web/js/services/unsavedChangesSvc.js:9:812
+[native code]
+processQueue@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:15757:30
+/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:15773:39
+$eval@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:17025:28
+$digest@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:16841:36
+flush@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-mocks/angular-mocks.js:1779:45
+/Users/hailuabk/Documents/projects/sagely/test/client/web/controllers/assessment-ctrl-spec.js:168:25
+invoke@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4625:24
+workFn@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-mocks/angular-mocks.js:2933:26
+
+9) should override an existing baseline on save
+     Assessment Controller
+     undefined
+htmlEscapeValue@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-translate/angular-translate.js:329:17
+escape@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-translate/angular-translate.js:133:32
+/Users/hailuabk/Documents/projects/sagely/bower_components/angular-translate/angular-translate.js:240:47
+forEach@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:321:24
+applyStrategies@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-translate/angular-translate.js:236:22
+sanitize@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-translate/angular-translate.js:322:31
+interpolate@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-translate/angular-translate.js:2903:57
+determineTranslationInstant@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-translate/angular-translate.js:2054:44
+instant@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-translate/angular-translate.js:2604:49
+/Users/hailuabk/Documents/projects/sagely/client/web/js/services/unsavedChangesSvc.js:9:812
+[native code]
+processQueue@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:15757:30
+/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:15773:39
+$eval@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:17025:28
+$digest@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:16841:36
+/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:17064:33
+flush@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-mocks/angular-mocks.js:126:34
+flush@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-mocks/angular-mocks.js:2039:25
+/Users/hailuabk/Documents/projects/sagely/test/client/web/controllers/assessment-ctrl-spec.js:183:21
+invoke@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4625:24
+workFn@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-mocks/angular-mocks.js:2933:26
+
+10) should handle a save error
+     Assessment Controller
+     undefined
+htmlEscapeValue@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-translate/angular-translate.js:329:17
+escape@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-translate/angular-translate.js:133:32
+/Users/hailuabk/Documents/projects/sagely/bower_components/angular-translate/angular-translate.js:240:47
+forEach@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:321:24
+applyStrategies@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-translate/angular-translate.js:236:22
+sanitize@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-translate/angular-translate.js:322:31
+interpolate@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-translate/angular-translate.js:2903:57
+determineTranslationInstant@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-translate/angular-translate.js:2054:44
+instant@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-translate/angular-translate.js:2604:49
+/Users/hailuabk/Documents/projects/sagely/client/web/js/services/unsavedChangesSvc.js:9:812
+[native code]
+processQueue@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:15757:30
+/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:15773:39
+$eval@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:17025:28
+$digest@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:16841:36
+flush@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-mocks/angular-mocks.js:1779:45
+/Users/hailuabk/Documents/projects/sagely/test/client/web/controllers/assessment-ctrl-spec.js:199:25
+invoke@/Users/hailuabk/Documents/projects/sagely/bower_components/angular/angular.js:4625:24
+workFn@/Users/hailuabk/Documents/projects/sagely/bower_components/angular-mocks/angular-mocks.js:2933:26
